@@ -29,7 +29,7 @@ def image_counter(folder_path):
             print(f"There are \033[35m{count}\033[0m images in the {dir_name} folder.")
     print('\033[92m'+"The search has been completed."+'\033[0m')
 
-    keys = list(class_dist.keys())
+    keys = list(class_dist.keys())https://github.com/SourovKarmokar/NeuroQuest-Advancing-Alzheimer-s-Disease-Detection-using-Deep-Learning-Algorithms
     values = list(class_dist.values())
     explode = (0.1,)*len(keys)
 
