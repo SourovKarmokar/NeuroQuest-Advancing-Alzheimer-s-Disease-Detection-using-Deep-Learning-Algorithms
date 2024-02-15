@@ -12,7 +12,7 @@ class_dist = {}
 def image_counter(folder_path):
     basename = os.path.basename(folder_path)
     print('\033[92m'+f"A search has been initiated within the folder named '{basename}'."+'\033[0m')
-    image_extensions = ['.jpg', '.jpeg', '.png']
+    image_extensions = ['.jpg', '.jpeg', '.png']https://colab.research.google.com/drive/1OKcDSydW6clnH1JZuR00Wv2Of-nc2co2
 
     for root, dirs, _ in os.walk(folder_path):
         for dir_name in dirs:
