@@ -7,7 +7,7 @@ There are 1792 images in the VeryMildDemented folder.
 There are 2573 images in the NonDemented folder.
 The search has been completed.
 
-
+@
 class_dist = {}
 def image_counter(folder_path):
     basename = os.path.basename(folder_path)
